@@ -25,8 +25,13 @@ export class CursoComponent implements OnInit {
     alert("Listar");
   }
 
+  //Alterar
+  editar(): void {
+    alert("Editar")
+  }
+
   //Remover
-  remover(): void {
+  excluir(): void {
     alert("Remover")
   }
 
