@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CursoComponent implements OnInit {
 
-  nome: String = "Rafael";
 
   //Construtor
   constructor() { }
@@ -15,6 +14,20 @@ export class CursoComponent implements OnInit {
   //Inicializador
   ngOnInit(): void {
 
+  }
+  //Cadastro
+  cadastrar(): void {
+    alert("Cadastro");
+  }
+
+  //listar
+  listar(): void {
+    alert("Listar");
+  }
+
+  //Remover
+  remover(): void {
+    alert("Remover")
   }
 
 }
