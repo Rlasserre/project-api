@@ -22,9 +22,9 @@ export class CursoComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  //Cadastro
+  //Cadastrar
   cadastrar(): void {
-    alert("Cadastro");
+    alert("Cadastrar");
   }
 
   //listar
@@ -32,7 +32,7 @@ export class CursoComponent implements OnInit {
     alert("Listar");
   }
 
-  //Alterar
+  //Editar
   editar(): void {
     alert("Editar")
   }
