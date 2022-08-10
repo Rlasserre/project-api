@@ -16,6 +16,9 @@ export class CursoComponent implements OnInit {
   //Vetor de Cursos
   vetor: Curso[] = [];
 
+  //Objeto da classe Curso
+  curso = new Curso();
+
   //Construtor
   constructor(private curso_servico: CursoService) { }
 
